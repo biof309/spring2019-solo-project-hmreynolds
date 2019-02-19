@@ -2,4 +2,4 @@
 Contributors
 ============
 
-* Martin Skarzynski <marskar@gmail.com>
+* Hayley Reynolds <hmreynolds20@gmail.com>
