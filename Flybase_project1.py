@@ -9,17 +9,20 @@ import matplotlib.pyplot as plt
 fifa1=pd.read_csv(fifa)
 print(fifa1.head(10))
 print(fifa1.keys())
-print(fifa1.loc)
 print(fifa1.info())
 
-fifa1.columns.get_loc('Nationality')
-fifa1.columns.get_loc('Age')
-Nat_Age = fifa1.iloc[[3]]
-print(Nat_Age)
+fifaNA = fifa1[['Nationality','Age']]
+print(fifaNA)
 
+Group = fifaNA.groupby(['Nationality'], as_index=True).agg('mean')
+print(Group)
 
+Nat = fifaNA[['Nationality']]
+Nat_drop = Nat.drop(axis=0)
+print(Nat_drop)
 
-y_col = fifa1[fifa1['Age'] > 45]
-fifa1.plot(x='Nationality', y=y_col)
+Group_graph = Group.reset_index().plot(x='Nationality', y='Age')
+plt.xlabel('Nationality')
+plt.ylabel('Mean Age')
 plt.show()
 
