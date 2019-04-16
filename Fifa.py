@@ -17,13 +17,22 @@ fifaNA = fifa1[['Nationality','Age']]
 print(fifaNA)
 #%% Group by Nationality to merge identical names and aggregate to mean to find\
 #%% mean age per Nationality (set Nationality to index)
-Group = fifaNA.groupby(['Nationality'], as_index=True).agg('mean')
+Group = fifaNA.groupby(['Nationality'], as_index=False).agg('mean')
 print(Group)
+#%% Sort data using conditions
+NAT = Group['Nationality']
+AGE = Group['Age']
 #%% Plot bar graph setting x- and y- axes
-Group_graph = Group.reset_index().plot.bar(x='Nationality', y='Age')
-#%% Label axes and show plot
+Group_graph = plt.scatter(NAT,AGE)
+plt.xticks(rotation = 90)
+plt.axes.vlines()
 plt.xlabel('Nationality')
 plt.ylabel('Mean Age')
 plt.show()
+
+
+
+
+
 
 
