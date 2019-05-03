@@ -16,6 +16,11 @@ Current models of data visualization extracted from the FlyBase website
 
 ![Picture1](https://user-images.githubusercontent.com/47371170/57148481-b3783680-6d97-11e9-96de-bf4b74501a75.png)
 
+![Picture2](https://user-images.githubusercontent.com/47371170/57149451-c12ebb80-6d99-11e9-82b4-7e099aa86e83.png)
+
+STEP 1: Read in tsv file as csv
+
+
 Note
 ====
 
