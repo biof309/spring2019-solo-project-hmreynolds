@@ -1,0 +1,35 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+
+filename = 'gene_rpkm_report_fb_2019_02.tsv'
+genename = 'FBgn0000015'
+
+
+df = pd.read_csv(filename, skiprows=5, sep='\t')
+
+#df.describe()
+#df.keys()
+
+df = df.drop(df[df.Parent_library_name == 'BCM_1_RNAseq'].index)
+df = df.drop(df[df.Parent_library_name == 'modENCODE_mRNA-Seq_tissues'].index)
+df = df.drop(df[df.Parent_library_name == 'modENCODE_mRNA-Seq_treatments'].index)
+df = df.drop(df[df.Parent_library_name == 'modENCODE_mRNA-Seq_cell.B'].index)
+df = df.drop(df[df.Parent_library_name == 'Knoblich_Neural_Cell_RNA-Seq'].index)
+
+RNAseq = df[['FBgn#', 'RNASource_name', 'RPKM_value']]
+
+def find_gene(genename):
+    df = RNAseq.loc[RNAseq['FBgn#'] == genename]
+    return df
+
+data = find_gene(genename)
+
+print(data.head)
+
+data.plot(kind='bar', x= 'RNASource_name', y= 'RPKM_value', color='g')
+plt.xlabel('Stage')
+plt.ylabel('RPKM expression')
+plt.gca().legend(genename)
+plt.title('RNAseq expression data for various stages of Drosophila development')
+
+plt.show()
