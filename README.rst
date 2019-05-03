@@ -3,14 +3,13 @@ Hayley's Project
 =========
 
 
-Drosophila Microbiome
+Drosophila RNAseq expression
 
 
 Description
 ===========
 
-A longer description of your project goes here...
-
+Provides ability to search through genes of Drosophila and view RNAseq expression data and compare gene expression in different stages of development.
 
 Note
 ====
