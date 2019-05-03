@@ -3,7 +3,7 @@ Hayley's Project
 =========
 
 
-Comparing Drosophila gene transcript expression in different stages of development.
+Comparing *Drosophila* gene transcript expression in different stages of development.
 
 
 Description
@@ -18,7 +18,8 @@ Current models of data visualization extracted from the FlyBase website
 
 ![Picture2](https://user-images.githubusercontent.com/47371170/57149451-c12ebb80-6d99-11e9-82b4-7e099aa86e83.png)
 
-STEP 1: Read in tsv file as csv
+Work Flow
+=========
 
 
 Note
