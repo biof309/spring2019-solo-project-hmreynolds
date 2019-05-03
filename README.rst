@@ -3,13 +3,13 @@ Hayley's Project
 =========
 
 
-Drosophila RNAseq expression
+Comparing Drosophila gene transcript expression in different stages of development.
 
 
 Description
 ===========
 
-Provides ability to search through genes of Drosophila and view RNAseq expression data to compare gene expression in different stages of development.
+FlyBase is an free online bioinformatics database and the primary repository of genetic and molecular data for Drosophilidae insect family. There you can access 
 
 Note
 ====
