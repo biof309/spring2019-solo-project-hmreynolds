@@ -13,6 +13,7 @@ FlyBase is an free online bioinformatics database and the primary repository of 
 
 Current models of data visualization extracted from the FlyBase website
 =======================================================================
+![image](https://user-images.githubusercontent.com/47371170/57147852-765f7480-6d96-11e9-9c0b-f1b0f34f8626.png)
 
 
 Note
