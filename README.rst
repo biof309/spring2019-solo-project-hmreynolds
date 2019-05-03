@@ -9,7 +9,7 @@ Drosophila RNAseq expression
 Description
 ===========
 
-Provides ability to search through genes of Drosophila and view RNAseq expression data and compare gene expression in different stages of development.
+Provides ability to search through genes of Drosophila and view RNAseq expression data to compare gene expression in different stages of development.
 
 Note
 ====
