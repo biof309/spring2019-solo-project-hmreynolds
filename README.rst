@@ -16,7 +16,6 @@ Current models of data visualization extracted from the FlyBase website
 
 ![Picture1](https://user-images.githubusercontent.com/47371170/57148481-b3783680-6d97-11e9-96de-bf4b74501a75.png)
 
-
 Note
 ====
 
