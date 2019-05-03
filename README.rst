@@ -9,7 +9,7 @@ Comparing Drosophila gene transcript expression in different stages of developme
 Description
 ===========
 
-FlyBase is an free online bioinformatics database and the primary repository of genetic and molecular data for Drosophilidae insect family. There you can access 
+FlyBase is an free online bioinformatics database and the primary repository of genetic and molecular data for Drosophilidae insect family. All data is available to access and includes mutant phenotypes, molecular characterization of mutant alleles, cytological maps, wild-type expression patterns, anatomical images, transgenic constructs and insertions, sequence-level gene models and molecular classification of gene product functions. 
 
 Note
 ====
