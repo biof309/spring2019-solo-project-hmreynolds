@@ -38,6 +38,11 @@ plt.title('RNAseq expression data for various stages of Drosophila development')
 
 plt.show()
 
+#Plot data as pie chart
+plt.pie(data['RPKM_value'], labels=data['RNASource_name'])
+plt.axis('equal')
+plt.show()
+
 
 
 
