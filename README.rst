@@ -1,5 +1,5 @@
 
-https://mybinder.org/v2/gh/biof309/spring2019-solo-project-hmreynolds/master?filepath=Final%20Project.ipynb
+https://hub.mybinder.org/user/biof309-spring2-ject-hmreynolds-539zyg9s/notebooks/Final%20Project.ipynb
 
 
 =========
